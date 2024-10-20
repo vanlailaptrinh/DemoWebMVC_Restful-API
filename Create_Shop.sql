@@ -56,3 +56,8 @@ ALTER TABLE GIOHANG
 ADD CONSTRAINT fk_id
 FOREIGN KEY (KhachHangId) REFERENCES TAIKHOAN(KhachHangId);
 
+alter table chitietgiohang 
+alter column mahang int not null 
+
+alter table chitietgiohang 
+alter column magiohang int not null 
